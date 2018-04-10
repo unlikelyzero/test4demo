@@ -31,7 +31,7 @@ pipeline {
         stage('IE11') {
           steps {
             sleep 6
-            sh 'exit 1'
+            sh 'exit 0'
           }
         }
       }
